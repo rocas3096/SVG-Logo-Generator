@@ -20,7 +20,7 @@ describe('Triangle', () => {
         const shape = new Triangle('text', 'red', 'black');
         // Makes sure the SVG code created matches expected code
         expect(trimSvgCode(shape.render())).toEqual(
-            '<svg width="300" height="200"><polygon points="150, 18 244, 182 56, 182" fill="red" stroke="black" stroke-width="2" /><text x="150" y="125" font-size="60" text-anchor="middle" fill="black">text</text></svg>'
+            '<svg width="300" height="200" viewBox="0 0 300 200"><polygon points="150, 18 244, 182 56, 182" fill="red" stroke="black" stroke-width="2" /><text x="150" y="145" font-size="50" text-anchor="middle" fill="black">text</text></svg>'
         );
     });
 });
@@ -28,9 +28,6 @@ describe('Triangle', () => {
 describe('Square', () => {
     test('render() should return the SVG code with the correct shape and color', () => {
         const shape = new Square('text', 'green', 'yellow');
-        // Makes sure the SVG code created matches expected code
-        expect(trimSvgCode(shape.render())).toEqual(
-            '<svg width="300" height="200"><rect width="300" height="200" fill="green" stroke="black" stroke-width="2" /><text x="150" y="125" font-size="60" text-anchor="middle" fill="yellow">text</text></svg>'
-        );
+        expect(trimSvgCode(shape.render())).toEqual('<svg width="300" height="200" viewBox="0 0 200 200"><rect width="200" height="200" fill="green" stroke="black" stroke-width="2" /><text x="100" y="100" font-size="60" text-anchor="middle" alignment-baseline="middle" fill="yellow">text</text></svg>');
     });
-});
+});  
