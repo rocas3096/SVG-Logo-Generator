@@ -13,7 +13,7 @@ I made this SVG Logo Generator to test my skills and knowledge of node.js and mo
 - [Questions](#questions)
 
 ## Installation
-To deploy this code on your own head to the repository located here https://github.com/rocas3096/ReadMe-Generator. Once on the page, hit the code button and copy the repository using the https or ssh. Afterwards, open gitbash and head to your choosen directory where you wish to clone this code. When there, type git clone and then paste the link and the clone should copy to your local machine. Afterwards, type "npm install" to install the required nodes to run this code. Once they are installed simply open your terminal and type node index.js to run the code in your terminal and answer the prompts as they appear.
+To deploy this code on your own head to the repository located here [https://github.com/rocas3096/ReadMe-Generator](https://github.com/rocas3096/SVG-Logo-Generator). Once on the page, hit the code button and copy the repository using the https or ssh. Afterwards, open gitbash and head to your choosen directory where you wish to clone this code. When there, type git clone and then paste the link and the clone should copy to your local machine. Afterwards, type "npm install" to install the required nodes to run this code. Once they are installed simply open your terminal and type node index.js to run the code in your terminal and answer the prompts as they appear.
 
 ## Usage
 Type node index.js to run the code in your terminal and answer the prompts as they appear. If completed successfully an SVG logo will be generated in the examples folder with the title you entered within your prompts.
