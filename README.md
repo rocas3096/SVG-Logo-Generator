@@ -25,7 +25,7 @@ N/A
 To contribute to this project, follow the installation instructions create a features branch with your name and input your changes into the commit you want to make. Push the commit to your features branch once all changes have been made and I will review changes for deployment to the main branch.
 
 ## Tests
-To run a test on the shape generation type "npx jest" in the terminal and hit enter. This should run the tests for generating a Circle, Triangle and Square with preset parameters. If you would like to test different colors and or text, please edit the test within the test folder in the file shapes.test.js and update the code accordingly.
+To run a test on the shape generation open your terminal and type "npm install --save-dev jest" to download the corresponding dev dependency. Once the package installation is complete type "npx jest" in the terminal and hit enter. This should run the tests for generating a Circle, Triangle and Square with preset parameters. If you would like to test different colors and or text, please edit the test within the test folder in the file shapes.test.js and update the code accordingly.
 
 ## Questions
 If you have any questions, don't hesitate to reach out:
