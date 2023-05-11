@@ -18,6 +18,9 @@ To deploy this code on your own head to the repository located here https://gith
 ## Usage
 Type node index.js to run the code in your terminal and answer the prompts as they appear. If completed successfully an SVG logo will be generated in the examples folder with the title you entered within your prompts.
 
+Below is a demo of proper usage for tests and regular functionality:
+[![Demo of README Generator demonstrating functionality](https://drive.google.com/thumbnail?id=1Nz4OKO5E3kVdXs8ykXrLFF7f9tdvU6bV)](https://drive.google.com/file/d/1Nz4OKO5E3kVdXs8ykXrLFF7f9tdvU6bV/preview)
+
 ## License
 N/A
 
